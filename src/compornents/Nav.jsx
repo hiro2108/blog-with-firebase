@@ -9,23 +9,23 @@ const Nav = ({ isAuth }) => {
         <nav>
             <Link to="/">
                 <FontAwesomeIcon icon={faHouse} />
-                Home
+                ホーム
             </Link>
 
             {!isAuth ? (
                 <Link to="/login">
                     <FontAwesomeIcon icon={faArrowRightToBracket} />
-                    Login
+                    ログイン
                 </Link>
             ) : (
                 <>
                     <Link to="/createpost">
                         <FontAwesomeIcon icon={faFilePen} />
-                        Post
+                        投稿
                     </Link>
                     <Link to="/logout">
                         <FontAwesomeIcon icon={faArrowRightToBracket} />
-                        Logout
+                        ログアウト
                     </Link>
                 </>
             )}

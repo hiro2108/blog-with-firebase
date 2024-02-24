@@ -31,16 +31,16 @@
     return (
       <div className='createPostPage'>
         <div className="postContainer">
-          <h1>Create post</h1>
+          <h1>ブログ投稿</h1>
           <div className="inputPost">
-            <div>Title</div>
-            <input type="text" placeholder='input title' onChange={(e) => setTitle(e.target.value)} />
+            <div>タイトル</div>
+            <input type="text" placeholder='タイトルを入力してください。' onChange={(e) => setTitle(e.target.value)} />
           </div>
           <div className="inputPost">
-            <div>Textarea</div>
-            <textarea placeholder='input post contents' onChange={(e) => setPostText(e.target.value)}></textarea>
+            <div>本文</div>
+            <textarea placeholder='ブログを入力してください。' onChange={(e) => setPostText(e.target.value)}></textarea>
           </div>
-          <button className='postButton' onClick={createPost}>Post</button>
+          <button className='postButton' onClick={createPost}>投稿</button>
         </div>
       </div>
     );

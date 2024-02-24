@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter as Router, Routes, Route, link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from './compornents/Home';
 import CreatePost from './compornents/CreatePost';
 import Login from './compornents/Login';

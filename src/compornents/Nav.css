@@ -5,14 +5,18 @@ nav{
     height: 50px;
     background-color: #cb8c54;
     gap: 45px;
+    position: sticky;
+    top: 0;
 }
 nav a{
-    text-decoration: none;
     color: white;
-    transition: all .3s;
+    transition: all .2s;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-decoration: none;
 }
 nav a:hover{
-    color: cadetblue;
+    color: #aaebff;
 }
 nav a svg{
     margin-right: 5px;

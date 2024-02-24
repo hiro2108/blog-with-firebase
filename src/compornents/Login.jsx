@@ -14,8 +14,8 @@ const Login = ({setIsAuth}) => {
   };
   return (
     <div>
-      <p>Login to start</p>
-      <button onClick={loginInWithGoogle}>Login in with Google</button>
+      <p>ご自身のGoogleアカウントでログインすることで、当Webアプリにブログを投稿することができます。</p>
+      <button onClick={loginInWithGoogle}>Googleアカウントでログイン</button>
     </div>
   );
 };

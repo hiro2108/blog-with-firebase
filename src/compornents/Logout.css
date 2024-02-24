@@ -1,0 +1,27 @@
+.logout {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: calc(100vh - 50px);
+    text-align: center;
+    align-items: center;
+}
+
+.logout button {
+    display: inline-block;
+    font-weight: bold;
+    border: none;
+    font-size: 1.4rem;
+    padding: 8px 24px;
+    background-color: #3d77a5;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 5px 9px 15px -5px #777;
+    transition: all .2s;
+    border-radius: 5px;
+}
+
+.logout button:hover {
+    box-shadow: none;
+    transform: translateY(5px);
+}
