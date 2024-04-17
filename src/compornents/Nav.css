@@ -1,23 +1,9 @@
 nav{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50px;
-    background-color: #cb8c54;
-    gap: 45px;
-    position: sticky;
-    top: 0;
+    background-color: #fff6e7;
 }
-nav a{
-    color: white;
-    transition: all .2s;
-    font-size: 1.4rem;
+nav p{
+    margin: 0;
+    padding: 8px;
     font-weight: bold;
-    text-decoration: none;
-}
-nav a:hover{
-    color: #aaebff;
-}
-nav a svg{
-    margin-right: 5px;
+    color: #3D3D3D;
 }

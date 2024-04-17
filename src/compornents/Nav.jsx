@@ -1,36 +1,12 @@
 import React from 'react';
-import { Link } from "react-router-dom";
-import "./Nav.css";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHouse, faFilePen, faArrowRightToBracket } from '@fortawesome/free-solid-svg-icons';
+import './Nav.css';
 
-const Nav = ({ isAuth }) => {
-    return (
-        <nav>
-            <Link to="/">
-                <FontAwesomeIcon icon={faHouse} />
-                ホーム
-            </Link>
-
-            {!isAuth ? (
-                <Link to="/login">
-                    <FontAwesomeIcon icon={faArrowRightToBracket} />
-                    ログイン
-                </Link>
-            ) : (
-                <>
-                    <Link to="/createpost">
-                        <FontAwesomeIcon icon={faFilePen} />
-                        投稿
-                    </Link>
-                    <Link to="/logout">
-                        <FontAwesomeIcon icon={faArrowRightToBracket} />
-                        ログアウト
-                    </Link>
-                </>
-            )}
-        </nav>
-    )
+const Nav = () => {
+  return (
+    <nav>
+      <p>※udemyの講座ではFirebaseと連携してログイン機能が実装されていましたが、Firebaseではログイン者のGoogleアカウント情報を取得してしまうため、Firebaseとの連携を停止して、疑似的にログインのようなUI体験ができる仕様に変更しました。</p>
+    </nav>
+  )
 }
 
-export default Nav;
+export default Nav
